@@ -1,0 +1,15 @@
+fastapi 
+uvicorn[standard]
+pydantic 
+typing 
+pandas 
+numpy
+psutil
+gunicorn
+requests
+certifi
+librosa
+soundfile
+python-multipart
+tensorflow
+tensorflow_hub
