@@ -1,0 +1,10 @@
+fastapi[standard]
+pydantic 
+typing 
+pandas 
+numpy==2.2.3
+psutil
+gunicorn 
+boto3
+mlflow==2.20.3
+scikit-learn

@@ -1,2 +1,3 @@
-/MLflow/secrets.ps1
-/Streamlit/.streamlit/secrets.toml
+# **/secrets.sh
+# /Streamlit/.streamlit/secrets.toml
+**/.env
