@@ -1,32 +1,36 @@
-## Uber pickups
+# Uber pickups
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/1024px-Uber_logo_2018.svg.png)
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Uber_logo_2018.svg/320px-Uber_logo_2018.svg.png)
 
-### Project Overview
+This project aims to **optimize Uber's operations** by identifying "**hot zones**" — areas where drivers should be located to maximize **pickup efficiency** and customer satisfaction. The use of historical data will help to develop an algorithm that detects clusters of high-demand locations.
 
-This project focuses on identifying "hot-zones" in New York City where Uber drivers should position themselves to reduce passenger wait times. By analyzing Uber pickup data, we aim to create algorithms that recommend optimal locations for drivers at any given time of day.
+## Project Overview
 
-### Dataset
+Uber faces challenges in efficiently matching drivers with riders, leading to longer wait times for customers. This project seeks to address this issue by identifying optimal locations (hot zones) where drivers should be positioned based on historical pickup patterns. 
 
-We will use Uber trip data specific to New York City. The dataset can be found here:
+- Develop an **unsupervised machine learning** algorithm to **detect clusters** of high-demand areas.
+- **Visualize** these clusters on an **interactive map** using tools like Plotly.
+     
+      
+## Dataset Description
 
-[Uber Trip Data](https://full-stack-bigdata-datasets.s3.eu-west-3.amazonaws.com/Machine+Learning+non+Supervis%C3%A9/Projects/uber-trip-data.zip)
+The dataset contains information about pickup times and locations in New York City. The features include:  
 
-### Objectives
+- **Date/Time:** The timestamp of the record.
+- **Lat & Long:** Geographic coordinates representing pickup locations (latitude and longitude).
+- **Base:** An identifier for the driver’s operational hub.
 
-Algorithm Development: Create algorithms to find hot-zones using clustering techniques.
-Visualization: Display the results on a map using Python libraries like Plotly.
-Temporal Analysis: Describe hot-zones per day of the week.
-Algorithm Comparison: Compare results using at least two unsupervised algorithms (e.g., KMeans and DBSCAN).
+## Approach 
 
-### Deliverables
+- **Clustering Algorithms:** Utilize KMeans and DBScan to group pickup locations into clusters representing hot zones.
+- **Visualization:** Use Plotly to create interactive maps that display the identified hot zones, showing how they change throughout the day and week.
 
-A map showcasing hot-zones using any Python library.
-Analysis of hot-zones for each day of the week.
-A comparison report between at least two clustering algorithms.
 
-### Helpers
+## How to Run This Project
 
-Clustering is Your Friend: Use clustering techniques to group pickup locations and identify hot-zones.
-Mapping Tools: Utilize Plotly or similar libraries to create interactive maps.
-Start Small, Grow Big: Begin with data from a specific day and hour, then generalize your approach to include more time periods.
+1. Install the required dependencies:
+
+```python
+pip install -r requirements.txt
+```
+2. Run the jupyter notebook

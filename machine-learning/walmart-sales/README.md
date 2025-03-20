@@ -1,22 +1,19 @@
-# Walmart Sales Prediction Project 🛒📈
-This is a fun and practical data science project where I built machine learning models to predict weekly sales at Walmart stores based on various economic indicators like fuel price, unemployment rate, CPI, etc. Let me walk you through what this project entails.
+# Walmart Sales Prediction Project 🛒
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Walmart_logo_%282025%3B_Alt%29.svg/800px-Walmart_logo_%282025%3B_Alt%29.svg.png)
+
+
+This is an in-depth and practical project where machine learning models were developed to forecast weekly sales at Walmart stores based on various economic indicators such as fuel prices, unemployment rates, and Consumer Price Index (CPI).
 
 ## Project Overview
 
 The goal here was to build a model that can accurately predict weekly sales for Walmart stores. This would help in understanding how external factors influence sales and could be used for future marketing planning. The project is divided into three main parts: 
 
-1. Exploratory Data Analysis (EDA) & Preprocessing: Understanding the data, cleaning it up, and getting it ready for machine learning.
-2. Linear Regression Model (Baseline): Building a basic linear regression model to serve as our baseline.
-3. Regularized Regression Model: Improving upon the baseline by using regularization techniques (Ridge/Lasso) to avoid overfitting.
-     
-## Goals
-
-- **Perform EDA** and visualize key insights from the data.
-- **Preprocess** the dataset for machine learning (handling missing values, encoding categorical variables, etc.).
-- Build a **linear regression model** and evaluate its performance.
-- Implement **regularization** techniques to improve model generalization.
-- **Fine-tune hyperparameters** using GridSearchCV.
-      
+1. **Exploratory Data Analysis (EDA) & Preprocessing:** Understanding the data, cleaning it up, and getting it ready for machine learning.
+2. **Basic Linear Regression Model :** Building a basic linear regression model to serve as our baseline.
+3. **Regularization:** Improving upon the baseline by using regularization techniques (Ridge/Lasso) to avoid overfitting.
+    
+        
 ## Dataset Description
 
 The dataset used in this project contains information about weekly sales at Walmart stores along with various economic indicators. The features include: 
@@ -47,12 +44,6 @@ The dataset used in this project contains information about weekly sales at Walm
 
 - Implemented Ridge and Lasso regression to regularize the model and prevent overfitting.
 - Used GridSearchCV to find the optimal regularization strength for both models.
-
-## Results
-
-- The baseline linear regression model achieved an R² score of [insert your score] on the test set.
-- After applying regularization, the Ridge/Lasso model improved performance with an R² score of [insert your score].
-- Insights into key factors influencing sales (e.g., fuel price has a significant negative impact).
 
 ## How to Run This Project
 
