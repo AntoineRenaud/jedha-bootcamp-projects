@@ -1,37 +1,45 @@
-# Projets de formation
-## Overview
-Ce repository contient l'ensemble des projets que j'ai réalisé au cours de ma formation en data science et intelligence artificielle chez [Jedha Bootcamp](https://www.jedha.co/).  
-Ces projets couvrent les différentes notions abordées lors de la formation, et sont à présenter pour valider les deux certifications suivantes : 
+# Training Projects 
+## Overview 
 
-- [Architecte en Intelligence Artificielle](https://www.francecompetences.fr/recherche/rncp/38777/)
-- [Développeur Concepteur en Science des Données](https://www.francecompetences.fr/recherche/rncp/35288/)
+This repository contains all projects I completed during my Data Science and Artificial Intelligence training at [Jedha Bootcamp](https://www.jedha.co/). These projects showcase the core concepts learned throughout the program and are part of the certification requirements for:   
 
-## Thématiques des projets
+- [AI Architect](https://www.francecompetences.fr/recherche/rncp/38777/)
+- [Machine Learning Engineer](https://www.francecompetences.fr/recherche/rncp/35288/)
+
+The projects span a variety of domains, from exploratory analysis to advanced machine learning/deep learning applications, as well as deployment and MLOps practices. 
+
+## Project Categories
 
 ### EDA
-Analyses de données exploratoire sur deux cas concrets.
-- [Tinder Speed Dating](/exploratory-data-analysis/speed-dating/README.md)
-- [Steam Sales](/exploratory-data-analysis/steam-platform/README.md)
+In-depth exploration of datasets to uncover trends and insights:  
+- [Tinder Speed Dating](/exploratory-data-analysis/speed-dating/README.md): EDA of data from a survey conducted by Tinder about a speed-dating event.
+- [Steam Sales](/exploratory-data-analysis/steam-platform/README.md): A study analyzing video game sales on the Steam platform.
 
 ### Machine Learning
-Trois projets différents pour aborder les principaux algorithmes de machine learning supervisé et non-supervisé.  
-- [Conversion Rate Challenge](/machine-learning/conversion-rate/README.md)
-- [Walmart Sales](/machine-learning/walmart-sales/README.md)
-- [Uber Pickups](/machine-learning/uber-pickups/README.md)
+Projects applying supervised and unsupervised learning algorithms:  
+- [Conversion Rate Challenge](/machine-learning/conversion-rate/README.md): Predicted website conversion rates using classification models (e.g., Random Forest, XGBoost).  
+- [Walmart Sales](/machine-learning/walmart-sales/README.md): Built machine learning models to predict sales trends.  
+- [Uber Pickups](/machine-learning/uber-pickups/README.md): Used unsupervised machine learning algorithms to identify the best hotspots for Uber pickups.
 
-### Deep learning
-Application de réseaux de neurones (RNN et LSTM) dans l'objectif de construire un détecteur de spam.
-- [AT&T Spam Detector](/deep-learning/README.md)  
+### Deep Learning
+Neural network implementations:    
+- [AT&T Spam Detector](/deep-learning/README.md): Developed RNN and LSTM-based models to classify spam messages with high accuracy.  
 
-### Déploiement
-Mise en place d'un dashboard qui affiche l'analyse des données de l'application GetAround. 
-- [Get Around](/deployment/README.md)
-
-### Projet personnel
-- [Audio classificaiton](/audio-classification/README.md)
+### Deployment
+Dashboard and deployment:
+- [Get Around](/deployment/README.md): Deployed an interactive dashboard integrating Exploratory Data Analysis (EDA) on GetAround’s car-sharing platform data, alongside developing a predictive pricing model to optimize rental price recommendations.
 
 ### Infrastructure Data
-- [Netflix Recommendation Engine](/data-infrastructure/README.md)
+- [Netflix Recommendation Engine](/data-infrastructure/README.md): Developed a recommendation system that processes real-time user interactions and automatically suggests content immediately after a user finishes watching a movie.
 
 ### MLOps
-- [Fraud Detection](/mlops-pipeline/README.md)
+- [Fraud Detection](/mlops-pipeline/README.md): Deployed a fully functional MLOps pipeline that automates the entire lifecycle of a fraud detection model.
+
+### Final project
+- [Audio classification](/audio-classification/README.md): An application that identifies and classifies sounds in urban acoustic environments. The tool analyzes complex auditory data, distinguishing between noise sources like traffic, construction, or emergency alerts, enabling actionable insights for smart city initiatives and environmental monitoring systems.
+
+## Key Tools & Technologies 
+
+**Languages:** Python  
+**Libraries:** Pandas, NumPy, Scikit-Learn, TensorFlow/Keras, Spark
+**Tools:** Docker, MLFlow, AWS, FastAPI, Streamlit, Databricks
