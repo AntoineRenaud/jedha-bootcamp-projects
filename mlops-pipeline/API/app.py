@@ -3,7 +3,8 @@ from mlflow import MlflowClient
 
 import uvicorn
 import pandas as pd
-import boto3
+
+import requests
 
 import os
 from pprint import pprint
@@ -12,13 +13,14 @@ from pydantic import BaseModel
 from fastapi import FastAPI
 
 # Loading model from MLFlow server.
-mlflow.set_tracking_uri(os.environ.get('APP_URI'))
+mlflow_url = os.environ.get('APP_URI')
+mlflow.set_tracking_uri(mlflow_url)
 
 def load_model():
-    # client = MlflowClient()
+    client = MlflowClient()
 
-    # for rm in client.search_registered_models():
-    #     pprint(dict(rm), indent=4)
+    for rm in client.search_registered_models():
+        pprint(dict(rm), indent=4)
     global model
     model_name = 'fraud-detection'
     model_alias = 'production'

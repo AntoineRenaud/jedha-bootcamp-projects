@@ -18,7 +18,6 @@ Build MLOps Pipeline:
 
 
 ## Ressources
-### API Links
-Model API : https://mlops-api-a1b16d875978.herokuapp.com/docs
+
 ### Video
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vKwVF-4aV2Q/0.jpg)](https://www.youtube.com/watch?v=vKwVF-4aV2Q)
